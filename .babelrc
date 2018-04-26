@@ -1,0 +1,9 @@
+{
+  presets: [
+    ['@babel/preset-env', { target: { node: 'current', chrome: 66 } }],
+  ],
+  plugins: [
+    '@babel/plugin-proposal-object-rest-spread',
+    '@babel/plugin-proposal-class-properties',
+  ],
+}
